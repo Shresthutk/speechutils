@@ -27,7 +27,8 @@ span{
     border: none;
     border-radius: 5px;
     color: brown;
-    margin: 10px 0px;
+    margin: 10px;
+    width: 50vh;
 }
 .speechutils button{
     font-size: 20px;
@@ -38,7 +39,7 @@ span{
     background-color: #60330d;
 }
 .buttons{
-    width: 16%;
+    width: 51vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
