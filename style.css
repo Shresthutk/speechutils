@@ -88,3 +88,10 @@ span{
     font-weight: bold;
     
 }
+
+/* mediaquery */
+@media screen and (mid-width:340) {
+    .speechutils textarea{
+        width: 45vh;
+    }
+}
