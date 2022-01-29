@@ -14,7 +14,7 @@ span{
 }
 /* speech utils  */
 .s1{
-    background-image: url("/images/s1.jpg");
+    background-image: url("./images/s1.jpg");
     background-size: cover;
 }
 .speechutils{
