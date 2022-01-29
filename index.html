@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+      integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Speech Utils</title>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section s1">
+        <h1>Speech Utils</h1>
+        <p class="preview" id='preview'>
+        </p>
+        <div class="speechutils">
+          <textarea id="textarea" cols="30" rows="10"></textarea>
+          <div class="buttons">
+            <button id="mic">Microphone</button>
+            <button id="abort">Abort</button>
+            <button id="clear">Clear</button>
+          </div>
+        </div>
+      </div>
+      <div class="section s2">
+        <h1>About</h1>
+        <div class="about">
+          <p>
+            This is a simple project <br />based on webapi speech recognition
+            feature of javascript <br />and fullPage.js is used for designing
+            purposes
+          </p>
+        </div>
+      </div>
+      <div class="section s3">
+        <h1>Contact</h1>
+        <div class="contact">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/utkarsh-shresth-5251191b6/">Linkedin</a></li>
+            <li><a href="https://github.com/Shresthutk">Github</a></li>
+            <li><a href="mailto:shresthutk62@gmail.com?Subject=Regarding%20speech%20utils">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+      integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new fullpage("#fullpage", {
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: true,
+        navigation: true,
+        navigationTooltips: ["Speech Utils", "About", "Contact"],
+        showActiveTooltip: true,
+      });
+    </script>
+  </body>
+  <script src="index.js"></script>
+</html>

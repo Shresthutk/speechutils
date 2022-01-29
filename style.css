@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: whitesmoke;
+}
+h1{
+    font-size: 41px;
+    margin: 0px 15px;
+}
+span{
+    background-color: whitesmoke !important;
+}
+/* speech utils  */
+.s1{
+    background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+}
+.speechutils{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.speechutils textarea{
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    color: brown;
+    margin: 10px 0px;
+}
+.speechutils button{
+    font-size: 20px;
+    margin: 5px 0;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background-color: #60330d;
+}
+.buttons{
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttons button:hover{
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    font-weight: bold;
+}
+.preview{
+    margin:0px 18px;
+}
+
+
+/* about */
+.s2{
+    background-image: url("https://images.unsplash.com/photo-1531315630201-bb15abeb1653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+    background-size: cover;
+    opacity: 1.2;
+}
+.about p{
+    font-size: 24px;
+    text-align: center;
+    margin:60px 0px;
+}
+
+/* contact */
+.s3{
+    background-image: url("https://images.unsplash.com/photo-1520923642038-b4259acecbd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1119&q=80");
+    background-size: cover;
+    
+}
+.contact ul{
+    text-align: center;
+    margin: 25px 0px;
+}
+.contact li{
+    margin: 10px 0px;
+}
+.contact li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+.contact li a:hover{
+    font-weight: bold;
+    
+}
