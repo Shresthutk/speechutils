@@ -14,11 +14,11 @@ recognition.lang = "en-US";
 mic.addEventListener("click", () => {
   if (micActive == false) {
     recognition.start();
-    console.log("mic stared");
+    // console.log("mic stared");
     textarea.value = "listening...";
     micActive = true;
     recognition.onspeechend = () => {
-      console.log("speech ended");
+    //   console.log("speech ended");
       recognition.onresult = function (e) {
         var speech = e["results"][0][0]["transcript"];
         textarea.value = speech;
@@ -33,7 +33,7 @@ mic.addEventListener("click", () => {
 abort.addEventListener("click", () => {
   {
     recognition.abort();
-    console.log("mic stopped");
+    // console.log("mic stopped");
     textarea.value = "Couldn't recognize speech :(";
     micActive = false;
   }
@@ -41,4 +41,5 @@ abort.addEventListener("click", () => {
 
 clear.addEventListener('click',()=>{
     textarea.value="";
+    preview.innerText="";
 })

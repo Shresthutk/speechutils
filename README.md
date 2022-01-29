@@ -9,13 +9,13 @@
 <h1 align="center"><b>Speech Utils</b></h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/shresthutk/Sudoku-Game?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/shresthutk/speechutils?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/shresthutk/Sudoku-Game?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/shresthutk/speechutils?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/shresthutk/Sudoku-Game?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/shresthutk/speechutils?color=56BEB8">
 
-  <!-- <img alt="License" src="https://img.shields.io/github/license/shresthutk/Sudoku-Game?color=56BEB8"> -->
+  <!-- <img alt="License" src="https://img.shields.io/github/license/shresthutk/speechutils?color=56BEB8"> -->
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/sudoku(prjct)?color=56BEB8" /> -->
 
@@ -69,6 +69,7 @@ Only supported for chrome browser
 
 ## ✅ Starting ##
 
+Goto https://shresthutk.github.io/speechutils/ to use the application
 
 ## 📝 License ##
 
